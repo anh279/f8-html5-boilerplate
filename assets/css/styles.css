@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  background: #333;
+}
+
+.menu > li {
+  display: inline-block;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 12px;
+}
+
+.sub-menu {
+  position: absolute;
+}
